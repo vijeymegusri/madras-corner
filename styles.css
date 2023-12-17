@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header ul,
+.searchbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header ul li {
+    list-style: none;
+    margin-left: 10px;
+    padding: 10px;
+
+}
+
+.header ul li a {
+    color: rebeccapurple;
+    font-size: 15px;
+}
+
+.header ul li button {
+    background: #aed6f1;
+    border: none;
+    padding: 5px 8px;
+    color: #6c3483;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.logo-img {
+    text-align: center;
+}
+
+.searchbox {
+    margin-top: 30px;
+    border-radius: 50px;
+    border: 1px solid #8a8487;
+}
+
+.search {
+    padding: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px none #8a8487;
+    outline: none;
+}
+
+.icons {
+    width: 10%;
+}
+
+.button {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #e1dbde;
+    border: 1px solid #e1dbde;
+    border-radius: 10px;
+    color: #2c3e50;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 0px 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid #bdc3c7;
+}
+
+.languages {
+    display: flex;
+    margin: 30px;
+}
+
+li {
+    list-style: none;
+    margin: 0px 4px;
+    font-size: 14px;
+    padding: 2px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #6b29f4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    /* padding: 15px 30px;
+border-bottom: 1px solid #dadce0;
+font-size: 15px;
+color: #70757a; */
+    width: 100%;
+    background: #e1dbde;
+}
+
+.row {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.r1 {
+    border-bottom: 1px solid #aed6f1;
+
+}
+
+.r2 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+
+}
+
+.r2 ul {
+    display: flex;
+}
+
+.r2 a {
+    color: #70757a;
+    /* margin-left: 10px; */
+}
+
+@media (min-width:801px) {
+    div {
+        width: 100%;
+    }
+
+
+}
